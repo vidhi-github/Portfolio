@@ -1,0 +1,73 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background: #f5f7fb;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+header img {
+  width: 60px;
+  border-radius: 50%;
+}
+.contact-info {
+  text-align: right;
+}
+.contact-info p, .contact-info a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+section {
+  padding: 2rem;
+}
+h1, h2 {
+  color: #1f2937;
+}
+hr {
+  margin: 1.5rem 0;
+  border: 1px solid #ddd;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.certificate-link i, .project-links i {
+  margin-left: 8px;
+}
+ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #1f2937;
+  color: white;
+  box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+}
+.social-icons a {
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
